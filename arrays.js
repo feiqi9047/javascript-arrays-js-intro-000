@@ -19,3 +19,17 @@ function destructivelyAddElementToEndOfArray(chocolateBars, element){
   chocolateBars.push(element)
   return chocolateBars
 }
+
+function accessElementInArray(array){
+  return array[2]
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift()
+  return array
+}
+
+function removeElementFromBeginningOfArray(array){
+  array = array.slice(1)
+  return array
+}
